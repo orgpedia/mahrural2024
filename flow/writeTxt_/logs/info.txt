@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-110
+112
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
 	202401041750235420.pdf missing_cmaps: sakalmarathinormal
@@ -28,7 +28,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202401101316208620.pdf --> para 202401101316208620.pdf:Page_idx: 2 3 <-> [(0, 1), (1, 2), (2, 3), (2, 4)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202401121301306320.pdf missing_cmaps: sakalmarathinormal, mangal, nirmalaui
+	202401121301306320.pdf missing_cmaps: mangal, nirmalaui, sakalmarathinormal
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -605,7 +605,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202401121301306320.pdf --> para 202401121301306320.pdf:Page_idx: 8 7 <-> [(0, 2)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202401181139469920.pdf missing_cmaps: sakalmarathinormal, mangal, nirmalaui
+	202401181139469920.pdf missing_cmaps: mangal, nirmalaui, sakalmarathinormal
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -655,7 +655,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202401181139469920.pdf --> para 202401181139469920.pdf:Page_idx: 25 2 <-> [(0, 2), (1, 3), (1, 4)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402121038111820.pdf missing_cmaps: f1, sakalmarathinormal, mangal, f2, nirmalaui
+	202402121038111820.pdf missing_cmaps: f1, mangal, sakalmarathinormal, f2, nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -668,7 +668,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202402121038111820.pdf --> para 202402121038111820.pdf:Page_idx: 0 8 <-> [(0, 4), (1, 6), (2, 6), (3, 6), (4, 7), (5, 8)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402121038214420.pdf missing_cmaps: f1, sakalmarathinormal, mangal, f2, f6, nirmalaui
+	202402121038214420.pdf missing_cmaps: f6, f1, mangal, sakalmarathinormal, f2, nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -681,7 +681,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202402121038214420.pdf --> para 202402121038214420.pdf:Page_idx: 0 5 <-> [(0, 18), (1, 19)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402121038380120.pdf missing_cmaps: f1, sakalmarathinormal, mangal, f2, f6, nirmalaui
+	202402121038380120.pdf missing_cmaps: f6, f1, mangal, sakalmarathinormal, f2, nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -693,7 +693,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202402121038380120.pdf --> para 202402121038380120.pdf:Page_idx: 0 5 <-> [(0, 15)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402121038437120.pdf missing_cmaps: f1, sakalmarathinormal, f5, mangal, f2, f6, nirmalaui
+	202402121038437120.pdf missing_cmaps: f6, f1, mangal, sakalmarathinormal, f2, nirmalaui, f5
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -703,4 +703,41 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202402121038437120.pdf --> para 202402121038437120.pdf:Page_idx: 0 2 <-> [(0, 17)]
-#docs: 110 #processed: 8
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071236461520.pdf missing_cmaps: f6, f1, mangal, sakalmarathinormal, f2, nirmalaui, f5
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:3 Errors=3 TableEmptyBodyCellError=3
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071236461520.pdf: >शासन शुध्दीपत्रक क्रमांक< >जिपअ-२०२४/प्र.क्र.६१/आस्था-४<
+	elapsed_time:202403071236461520.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #34 Sentences: #2
+	[0]  #words: 6 #sentences: 2
+	After generate: 6 MB
+	[0]  #words: 265 #sentences: 44
+	After generate: 6 MB
+	[1]  #words: 16 #sentences: 1
+	After generate: 6 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071241016620.pdf missing_cmaps: f6, f1, mangal, sakalmarathinormal, f2, nirmalaui, f5
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 14: जिपआ-२०२४/प्र.क्र.४७/आस्था-४ ==शासन परिपत्रक,क्रमांक जिपआ-२०२४/प्र.क्र.४७/आस्था-४
+	extract_order_number:202403071241016620.pdf: >शासन परिपत्रक,क्रमांक< >जिपआ-२०२४/प्र.क्र.४७/आस्था-४<
+	elapsed_time:202403071241016620.pdf: 0.000694
+  exec_task: doc_translator_hf 
+    Paras: #26 Sentences: #0
+	[0]  #words: 174 #sentences: 30
+	After generate: 6 MB
+  exec_task: text_writer 
+#docs: 112 #processed: 10
