@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-120
+121
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
 	202401041750235420.pdf missing_cmaps: sakalmarathinormal
@@ -28,7 +28,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202401101316208620.pdf --> para 202401101316208620.pdf:Page_idx: 2 3 <-> [(0, 1), (1, 2), (2, 3), (2, 4)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202401121301306320.pdf missing_cmaps: nirmalaui, mangal, sakalmarathinormal
+	202401121301306320.pdf missing_cmaps: mangal, sakalmarathinormal, nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -605,7 +605,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202401121301306320.pdf --> para 202401121301306320.pdf:Page_idx: 8 7 <-> [(0, 2)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202401181139469920.pdf missing_cmaps: nirmalaui, mangal, sakalmarathinormal
+	202401181139469920.pdf missing_cmaps: mangal, sakalmarathinormal, nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -655,7 +655,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202401181139469920.pdf --> para 202401181139469920.pdf:Page_idx: 25 2 <-> [(0, 2), (1, 3), (1, 4)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402121038111820.pdf missing_cmaps: f1, f2, nirmalaui, mangal, sakalmarathinormal
+	202402121038111820.pdf missing_cmaps: sakalmarathinormal, f1, f2, mangal, nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -668,7 +668,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202402121038111820.pdf --> para 202402121038111820.pdf:Page_idx: 0 8 <-> [(0, 4), (1, 6), (2, 6), (3, 6), (4, 7), (5, 8)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402121038214420.pdf missing_cmaps: f1, f2, nirmalaui, mangal, f6, sakalmarathinormal
+	202402121038214420.pdf missing_cmaps: sakalmarathinormal, f1, f2, f6, mangal, nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -681,7 +681,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202402121038214420.pdf --> para 202402121038214420.pdf:Page_idx: 0 5 <-> [(0, 18), (1, 19)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402121038380120.pdf missing_cmaps: f1, f2, nirmalaui, mangal, f6, sakalmarathinormal
+	202402121038380120.pdf missing_cmaps: sakalmarathinormal, f1, f2, f6, mangal, nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -693,7 +693,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202402121038380120.pdf --> para 202402121038380120.pdf:Page_idx: 0 5 <-> [(0, 15)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402121038437120.pdf missing_cmaps: f1, f5, f2, nirmalaui, mangal, f6, sakalmarathinormal
+	202402121038437120.pdf missing_cmaps: sakalmarathinormal, f1, f5, f2, f6, mangal, nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -705,65 +705,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202402121038437120.pdf --> para 202402121038437120.pdf:Page_idx: 0 2 <-> [(0, 17)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111054323020.pdf missing_cmaps: f1, f5, f2, nirmalaui, mangal, f6, sakalmarathinormal
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:17 Errors=17 TableEmptyBodyCellError=17
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111054323020.pdf: >शासन निर्णय क्रमांक< >मविसे-११२३/प्र.क्र.१४२/आस्था-३ अ<
-	elapsed_time:202403111054323020.pdf: 0.000091
-  exec_task: doc_translator_hf 
-    Paras: #64 Sentences: #0
-	[0]  #words: 260 #sentences: 43
-	After generate: 5 MB
-	[1]  #words: 266 #sentences: 23
-	After generate: 5 MB
-	[2]  #words: 47 #sentences: 3
-	After generate: 5 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111054399120.pdf missing_cmaps: f1, f5, f2, nirmalaui, mangal, f6, sakalmarathinormal
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:14 Errors=14 TableEmptyBodyCellError=14
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111054399120.pdf: >शासन निर्णय क्रमांक< >मविसे-११२३/प्र.क्र.१३८/आस्था-३ अ<
-	elapsed_time:202403111054399120.pdf: 0.000080
-  exec_task: doc_translator_hf 
-    Paras: #63 Sentences: #0
-	[0]  #words: 264 #sentences: 43
-	After generate: 5 MB
-	[1]  #words: 268 #sentences: 23
-	After generate: 5 MB
-	[2]  #words: 31 #sentences: 2
-	After generate: 5 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111056383020.pdf missing_cmaps: f1, f5, f2, nirmalaui, mangal, f6, sakalmarathinormal
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111056383020.pdf: >शासन निर्णय क्रमांक< >मुग्रायो-२०१६/प्र.क्र.५० (अ)/बांधकाम-४<
-	elapsed_time:202403111056383020.pdf: 0.000079
-  exec_task: doc_translator_hf 
-    Paras: #40 Sentences: #0
-	[0]  #words: 268 #sentences: 43
-	After generate: 5 MB
-	[1]  #words: 147 #sentences: 9
-	After generate: 5 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111336093520.pdf missing_cmaps: f1, f5, f2, nirmalaui, mangal, f6, sakalmarathinormal
+	202403111336093520.pdf missing_cmaps: sakalmarathinormal, f1, f5, f2, f6, mangal, nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -775,87 +717,24 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202403111336093520.pdf --> para 202403111336093520.pdf:Page_idx: 1 1 <-> []
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111336406120.pdf missing_cmaps: f1, f5, f2, nirmalaui, mangal, f6, sakalmarathinormal
+	202403111759226820.pdf missing_cmaps: sakalmarathinormal, f1, f5, f2, f6, mangal, nirmalaui
   exec_task: word_recognizer 
   exec_task: pdftable_finder 
-	==Total:0 Errors=0 
+	==Total:41 Errors=41 TableEmptyBodyCellError=41
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111336406120.pdf: >शासन निर्णय क्रमांक< >संकीर्ण-२०२२/प्र.क्र.८१७/आस्था-७<
-	elapsed_time:202403111336406120.pdf: 0.000081
+	extract_order_number:202403111759226820.pdf: >शासन निर्णय क्रमांक< >मुग्रायो-२०२४/प्र.क्र. २४३/बांधकाम-४<
+	elapsed_time:202403111759226820.pdf: 0.000081
   exec_task: doc_translator_hf 
-    Paras: #33 Sentences: #21
-	[0]  #words: 54 #sentences: 15
-	After generate: 5 MB
-	[0]  #words: 224 #sentences: 37
-	After generate: 5 MB
+    Paras: #73 Sentences: #49
+	[0]  #words: 118 #sentences: 25
+	After generate: 6 MB
+	[0]  #words: 260 #sentences: 46
+	After generate: 6 MB
+	[1]  #words: 259 #sentences: 25
+	After generate: 6 MB
+	[2]  #words: 107 #sentences: 8
+	After generate: 6 MB
   exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111655184220.pdf missing_cmaps: f1, f5, f2, nirmalaui, mangal, f6, sakalmarathinormal
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:223 Errors=223 TableEmptyBodyCellError=223
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111655184220.pdf: >शासन आदेश क्रमांक< >मविसे-११२४/प्र.क्र.३३/आस्था-३ अ<
-	elapsed_time:202403111655184220.pdf: 0.000080
-  exec_task: doc_translator_hf 
-    Paras: #59 Sentences: #154
-	[0]  #words: 257 #sentences: 123
-	After generate: 5 MB
-	[1]  #words: 25 #sentences: 8
-	After generate: 5 MB
-	[0]  #words: 260 #sentences: 45
-	After generate: 5 MB
-	[1]  #words: 200 #sentences: 19
-	After generate: 5 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111822366920.pdf missing_cmaps: f1, f5, f2, nirmalaui, mangal, f6, sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-  exec_task: pdftable_finder 
-	==Total:6 Errors=6 TableEmptyBodyCellError=6
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111822366920.pdf: >शासन आदेश क्रमांक< >मविसे-१०२४/प्र.क्र.३१/२०२४/आस्था-३<
-	elapsed_time:202403111822366920.pdf: 0.000093
-  exec_task: doc_translator_hf 
-    Paras: #35 Sentences: #6
-	[0]  #words: 28 #sentences: 6
-	After generate: 5 MB
-	[0]  #words: 265 #sentences: 44
-	After generate: 10 MB
-	[1]  #words: 146 #sentences: 7
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111822444620.pdf missing_cmaps: f1, f5, f2, nirmalaui, mangal, f6, sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:7 Errors=7 TableEmptyBodyCellError=7
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111822444620.pdf: >शासन आदेठा क्रमांक< >मविसे-१०२२/प्र.क्र.२२१/२०२२/आस्था-३<
-	elapsed_time:202403111822444620.pdf: 0.000094
-  exec_task: doc_translator_hf 
-    Paras: #21 Sentences: #5
-	[0]  #words: 32 #sentences: 5
-	After generate: 10 MB
-	[0]  #words: 265 #sentences: 28
-	After generate: 10 MB
-	[1]  #words: 159 #sentences: 6
-	After generate: 10 MB
-  exec_task: text_writer 
-#docs: 120 #processed: 16
+#docs: 121 #processed: 10
