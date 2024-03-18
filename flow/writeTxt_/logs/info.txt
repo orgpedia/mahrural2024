@@ -1,39 +1,1602 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-131
+166
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202401041750235420.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202401041750235420.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:35 Errors=35 TableEmptyBodyCellError=35
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202401041750235420.pdf --> para 202401041750235420.pdf:Page_idx: 0 5 <-> [(0, 18)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202401101316208620.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202401101316208620.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:43 Errors=43 TableEmptyBodyCellError=43
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202401101316208620.pdf --> para 202401101316208620.pdf:Page_idx: 2 3 <-> [(0, 1), (1, 2), (2, 3), (2, 4)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202401121301306320.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202401121301306320.pdf missing_cmaps: nirmalaui, mangal, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+	Tesseract on page: 11
+	Tesseract on page: 12
+	Tesseract on page: 13
+	Tesseract on page: 14
+	Tesseract on page: 15
+	Tesseract on page: 16
+	Tesseract on page: 17
+	Tesseract on page: 18
+	Tesseract on page: 19
+	Tesseract on page: 20
+	Tesseract on page: 21
+	Tesseract on page: 22
+	Tesseract on page: 23
+	Tesseract on page: 24
+	Tesseract on page: 25
+	Tesseract on page: 26
+	Tesseract on page: 27
+	Tesseract on page: 28
+	Tesseract on page: 29
+	Tesseract on page: 30
+	Tesseract on page: 31
+	Tesseract on page: 32
+	Tesseract on page: 33
+	Tesseract on page: 34
+	Tesseract on page: 35
+	Tesseract on page: 36
+	Tesseract on page: 37
+	Tesseract on page: 38
+	Tesseract on page: 39
+	Tesseract on page: 40
+	Tesseract on page: 41
+	Tesseract on page: 42
+	Tesseract on page: 43
+	Tesseract on page: 44
+	Tesseract on page: 45
+	Tesseract on page: 46
+	Tesseract on page: 47
+	Tesseract on page: 48
+	Tesseract on page: 49
+	Tesseract on page: 50
+	Tesseract on page: 51
+	Tesseract on page: 52
+	Tesseract on page: 53
+	Tesseract on page: 54
+	Tesseract on page: 55
+	Tesseract on page: 56
+	Tesseract on page: 57
+	Tesseract on page: 58
+	Tesseract on page: 59
+	Tesseract on page: 60
+	Tesseract on page: 61
+	Tesseract on page: 62
+	Tesseract on page: 63
+	Tesseract on page: 64
+	Tesseract on page: 65
+	Tesseract on page: 66
+	Tesseract on page: 67
+	Tesseract on page: 68
+	Tesseract on page: 69
+	Tesseract on page: 70
+	Tesseract on page: 71
+	Tesseract on page: 72
+	Tesseract on page: 73
+	Tesseract on page: 74
+	Tesseract on page: 75
+	Tesseract on page: 76
+	Tesseract on page: 77
+	Tesseract on page: 78
+	Tesseract on page: 79
+	Tesseract on page: 80
+	Tesseract on page: 81
+	Tesseract on page: 82
+	Tesseract on page: 83
+	Tesseract on page: 84
+	Tesseract on page: 85
+	Tesseract on page: 86
+	Tesseract on page: 87
+	Tesseract on page: 88
+	Tesseract on page: 89
+	Tesseract on page: 90
+	Tesseract on page: 91
+	Tesseract on page: 92
+	Tesseract on page: 93
+	Tesseract on page: 94
+	Tesseract on page: 95
+	Tesseract on page: 96
+	Tesseract on page: 97
+	Tesseract on page: 98
+	Tesseract on page: 99
+	Tesseract on page: 100
+	Tesseract on page: 101
+	Tesseract on page: 102
+	Tesseract on page: 103
+	Tesseract on page: 104
+	Tesseract on page: 105
+	Tesseract on page: 106
+	Tesseract on page: 107
+	Tesseract on page: 108
+	Tesseract on page: 109
+	Tesseract on page: 110
+	Tesseract on page: 111
+	Tesseract on page: 112
+	Tesseract on page: 113
+	Tesseract on page: 114
+	Tesseract on page: 115
+	Tesseract on page: 116
+	Tesseract on page: 117
+	Tesseract on page: 118
+	Tesseract on page: 119
+	Tesseract on page: 120
+	Tesseract on page: 121
+	Tesseract on page: 122
+	Tesseract on page: 123
+	Tesseract on page: 124
+	Tesseract on page: 125
+	Tesseract on page: 126
+	Tesseract on page: 127
+	Tesseract on page: 128
+	Tesseract on page: 129
+	Tesseract on page: 130
+	Tesseract on page: 131
+	Tesseract on page: 132
+	Tesseract on page: 133
+	Tesseract on page: 134
+	Tesseract on page: 135
+	Tesseract on page: 136
+	Tesseract on page: 137
+	Tesseract on page: 138
+	Tesseract on page: 139
+	Tesseract on page: 140
+	Tesseract on page: 141
+	Tesseract on page: 142
+	Tesseract on page: 143
+	Tesseract on page: 144
+	Tesseract on page: 145
+	Tesseract on page: 146
+	Tesseract on page: 147
+	Tesseract on page: 148
+	Tesseract on page: 149
+	Tesseract on page: 150
+	Tesseract on page: 151
+	Tesseract on page: 152
+	Tesseract on page: 153
+	Tesseract on page: 154
+	Tesseract on page: 155
+	Tesseract on page: 156
+	Tesseract on page: 157
+	Tesseract on page: 158
+	Tesseract on page: 159
+	Tesseract on page: 160
+	Tesseract on page: 161
+	Tesseract on page: 162
+	Tesseract on page: 163
+	Tesseract on page: 164
+	Tesseract on page: 165
+	Tesseract on page: 166
+	Tesseract on page: 167
+	Tesseract on page: 168
+	Tesseract on page: 169
+	Tesseract on page: 170
+	Tesseract on page: 171
+	Tesseract on page: 172
+	Tesseract on page: 173
+	Tesseract on page: 174
+	Tesseract on page: 175
+	Tesseract on page: 176
+	Tesseract on page: 177
+	Tesseract on page: 178
+	Tesseract on page: 179
+	Tesseract on page: 180
+	Tesseract on page: 181
+	Tesseract on page: 182
+	Tesseract on page: 183
+	Tesseract on page: 184
+	Tesseract on page: 185
+	Tesseract on page: 186
+	Tesseract on page: 187
+	Tesseract on page: 188
+	Tesseract on page: 189
+	Tesseract on page: 190
+	Tesseract on page: 191
+	Tesseract on page: 192
+	Tesseract on page: 193
+	Tesseract on page: 194
+	Tesseract on page: 195
+	Tesseract on page: 196
+	Tesseract on page: 197
+	Tesseract on page: 198
+	Tesseract on page: 199
+	Tesseract on page: 200
+	Tesseract on page: 201
+	Tesseract on page: 202
+	Tesseract on page: 203
+	Tesseract on page: 204
+	Tesseract on page: 205
+	Tesseract on page: 206
+	Tesseract on page: 207
+	Tesseract on page: 208
+	Tesseract on page: 209
+	Tesseract on page: 210
+	Tesseract on page: 211
+	Tesseract on page: 212
+	Tesseract on page: 213
+	Tesseract on page: 214
+	Tesseract on page: 215
+	Tesseract on page: 216
+	Tesseract on page: 217
+	Tesseract on page: 218
+	Tesseract on page: 219
+	Tesseract on page: 220
+	Tesseract on page: 221
+	Tesseract on page: 222
+	Tesseract on page: 223
+	Tesseract on page: 224
+	Tesseract on page: 225
+	Tesseract on page: 226
+	Tesseract on page: 227
+	Tesseract on page: 228
+	Tesseract on page: 229
+	Tesseract on page: 230
+	Tesseract on page: 231
+	Tesseract on page: 232
+	Tesseract on page: 233
+	Tesseract on page: 234
+	Tesseract on page: 235
+	Tesseract on page: 236
+	Tesseract on page: 237
+	Tesseract on page: 238
+	Tesseract on page: 239
+	Tesseract on page: 240
+	Tesseract on page: 241
+	Tesseract on page: 242
+	Tesseract on page: 243
+	Tesseract on page: 244
+	Tesseract on page: 245
+	Tesseract on page: 246
+	Tesseract on page: 247
+	Tesseract on page: 248
+	Tesseract on page: 249
+	Tesseract on page: 250
+	Tesseract on page: 251
+	Tesseract on page: 252
+	Tesseract on page: 253
+	Tesseract on page: 254
+	Tesseract on page: 255
+	Tesseract on page: 256
+	Tesseract on page: 257
+	Tesseract on page: 258
+	Tesseract on page: 259
+	Tesseract on page: 260
+	Tesseract on page: 261
+	Tesseract on page: 262
+	Tesseract on page: 263
+	Tesseract on page: 264
+	Tesseract on page: 265
+	Tesseract on page: 266
+	Tesseract on page: 267
+	Tesseract on page: 268
+	Tesseract on page: 269
+	Tesseract on page: 270
+	Tesseract on page: 271
+	Tesseract on page: 272
+	Tesseract on page: 273
+	Tesseract on page: 274
+	Tesseract on page: 275
+	Tesseract on page: 276
+	Tesseract on page: 277
+	Tesseract on page: 278
+	Tesseract on page: 279
+	Tesseract on page: 280
+	Tesseract on page: 281
+	Tesseract on page: 282
+	Tesseract on page: 283
+	Tesseract on page: 284
+	Tesseract on page: 285
+	Tesseract on page: 286
+	Tesseract on page: 287
+	Tesseract on page: 288
+	Tesseract on page: 289
+	Tesseract on page: 290
+	Tesseract on page: 291
+	Tesseract on page: 292
+	Tesseract on page: 293
+	Tesseract on page: 294
+	Tesseract on page: 295
+	Tesseract on page: 296
+	Tesseract on page: 297
+	Tesseract on page: 298
+	Tesseract on page: 299
+	Tesseract on page: 300
+	Tesseract on page: 301
+	Tesseract on page: 302
+	Tesseract on page: 303
+	Tesseract on page: 304
+	Tesseract on page: 305
+	Tesseract on page: 306
+	Tesseract on page: 307
+	Tesseract on page: 308
+	Tesseract on page: 309
+	Tesseract on page: 310
+	Tesseract on page: 311
+	Tesseract on page: 312
+	Tesseract on page: 313
+	Tesseract on page: 314
+	Tesseract on page: 315
+	Tesseract on page: 316
+	Tesseract on page: 317
+	Tesseract on page: 318
+	Tesseract on page: 319
+	Tesseract on page: 320
+	Tesseract on page: 321
+	Tesseract on page: 322
+	Tesseract on page: 323
+	Tesseract on page: 324
+	Tesseract on page: 325
+	Tesseract on page: 326
+	Tesseract on page: 327
+	Tesseract on page: 328
+	Tesseract on page: 329
+	Tesseract on page: 330
+	Tesseract on page: 331
+	Tesseract on page: 332
+	Tesseract on page: 333
+	Tesseract on page: 334
+	Tesseract on page: 335
+	Tesseract on page: 336
+	Tesseract on page: 337
+	Tesseract on page: 338
+	Tesseract on page: 339
+	Tesseract on page: 340
+	Tesseract on page: 341
+	Tesseract on page: 342
+	Tesseract on page: 343
+	Tesseract on page: 344
+	Tesseract on page: 345
+	Tesseract on page: 346
+	Tesseract on page: 347
+	Tesseract on page: 348
+	Tesseract on page: 349
+	Tesseract on page: 350
+	Tesseract on page: 351
+	Tesseract on page: 352
+	Tesseract on page: 353
+	Tesseract on page: 354
+	Tesseract on page: 355
+	Tesseract on page: 356
+	Tesseract on page: 357
+	Tesseract on page: 358
+	Tesseract on page: 359
+	Tesseract on page: 360
+	Tesseract on page: 361
+	Tesseract on page: 362
+	Tesseract on page: 363
+	Tesseract on page: 364
+	Tesseract on page: 365
+	Tesseract on page: 366
+	Tesseract on page: 367
+	Tesseract on page: 368
+	Tesseract on page: 369
+	Tesseract on page: 370
+	Tesseract on page: 371
+	Tesseract on page: 372
+	Tesseract on page: 373
+	Tesseract on page: 374
+	Tesseract on page: 375
+	Tesseract on page: 376
+	Tesseract on page: 377
+	Tesseract on page: 378
+	Tesseract on page: 379
+	Tesseract on page: 380
+	Tesseract on page: 381
+	Tesseract on page: 382
+	Tesseract on page: 383
+	Tesseract on page: 384
+	Tesseract on page: 385
+	Tesseract on page: 386
+	Tesseract on page: 387
+	Tesseract on page: 388
+	Tesseract on page: 389
+	Tesseract on page: 390
+	Tesseract on page: 391
+	Tesseract on page: 392
+	Tesseract on page: 393
+	Tesseract on page: 394
+	Tesseract on page: 395
+	Tesseract on page: 396
+	Tesseract on page: 397
+	Tesseract on page: 398
+	Tesseract on page: 399
+	Tesseract on page: 400
+	Tesseract on page: 401
+	Tesseract on page: 402
+	Tesseract on page: 403
+	Tesseract on page: 404
+	Tesseract on page: 405
+	Tesseract on page: 406
+	Tesseract on page: 407
+	Tesseract on page: 408
+	Tesseract on page: 409
+	Tesseract on page: 410
+	Tesseract on page: 411
+	Tesseract on page: 412
+	Tesseract on page: 413
+	Tesseract on page: 414
+	Tesseract on page: 415
+	Tesseract on page: 416
+	Tesseract on page: 417
+	Tesseract on page: 418
+	Tesseract on page: 419
+	Tesseract on page: 420
+	Tesseract on page: 421
+	Tesseract on page: 422
+	Tesseract on page: 423
+	Tesseract on page: 424
+	Tesseract on page: 425
+	Tesseract on page: 426
+	Tesseract on page: 427
+	Tesseract on page: 428
+	Tesseract on page: 429
+	Tesseract on page: 430
+	Tesseract on page: 431
+	Tesseract on page: 432
+	Tesseract on page: 433
+	Tesseract on page: 434
+	Tesseract on page: 435
+	Tesseract on page: 436
+	Tesseract on page: 437
+	Tesseract on page: 438
+	Tesseract on page: 439
+	Tesseract on page: 440
+	Tesseract on page: 441
+	Tesseract on page: 442
+	Tesseract on page: 443
+	Tesseract on page: 444
+	Tesseract on page: 445
+	Tesseract on page: 446
+	Tesseract on page: 447
+	Tesseract on page: 448
+	Tesseract on page: 449
+	Tesseract on page: 450
+	Tesseract on page: 451
+	Tesseract on page: 452
+	Tesseract on page: 453
+	Tesseract on page: 454
+	Tesseract on page: 455
+	Tesseract on page: 456
+	Tesseract on page: 457
+	Tesseract on page: 458
+	Tesseract on page: 459
+	Tesseract on page: 460
+	Tesseract on page: 461
+	Tesseract on page: 462
+	Tesseract on page: 463
+	Tesseract on page: 464
+	Tesseract on page: 465
+	Tesseract on page: 466
+	Tesseract on page: 467
+	Tesseract on page: 468
+	Tesseract on page: 469
+	Tesseract on page: 470
+	Tesseract on page: 471
+	Tesseract on page: 472
+	Tesseract on page: 473
+	Tesseract on page: 474
+	Tesseract on page: 475
+	Tesseract on page: 476
+	Tesseract on page: 477
+	Tesseract on page: 478
+	Tesseract on page: 479
+	Tesseract on page: 480
+	Tesseract on page: 481
+	Tesseract on page: 482
+	Tesseract on page: 483
+	Tesseract on page: 484
+	Tesseract on page: 485
+	Tesseract on page: 486
+	Tesseract on page: 487
+	Tesseract on page: 488
+	Tesseract on page: 489
+	Tesseract on page: 490
+	Tesseract on page: 491
+	Tesseract on page: 492
+	Tesseract on page: 493
+	Tesseract on page: 494
+	Tesseract on page: 495
+	Tesseract on page: 496
+	Tesseract on page: 497
+	Tesseract on page: 498
+	Tesseract on page: 499
+	Tesseract on page: 500
+	Tesseract on page: 501
+	Tesseract on page: 502
+	Tesseract on page: 503
+	Tesseract on page: 504
+	Tesseract on page: 505
+	Tesseract on page: 506
+	Tesseract on page: 507
+	Tesseract on page: 508
+	Tesseract on page: 509
+	Tesseract on page: 510
+	Tesseract on page: 511
+	Tesseract on page: 512
+	Tesseract on page: 513
+	Tesseract on page: 514
+	Tesseract on page: 515
+	Tesseract on page: 516
+	Tesseract on page: 517
+	Tesseract on page: 518
+	Tesseract on page: 519
+	Tesseract on page: 520
+	Tesseract on page: 521
+	Tesseract on page: 522
+	Tesseract on page: 523
+	Tesseract on page: 524
+	Tesseract on page: 525
+	Tesseract on page: 526
+	Tesseract on page: 527
+	Tesseract on page: 528
+	Tesseract on page: 529
+	Tesseract on page: 530
+	Tesseract on page: 531
+	Tesseract on page: 532
+	Tesseract on page: 533
+	Tesseract on page: 534
+	Tesseract on page: 535
+	Tesseract on page: 536
+	Tesseract on page: 537
+	Tesseract on page: 538
+	Tesseract on page: 539
+	Tesseract on page: 540
+	Tesseract on page: 541
+	Tesseract on page: 542
+	Tesseract on page: 543
+	Tesseract on page: 544
+	Tesseract on page: 545
+	Tesseract on page: 546
+	Tesseract on page: 547
+	Tesseract on page: 548
+	Tesseract on page: 549
+	Tesseract on page: 550
+	Tesseract on page: 551
+	Tesseract on page: 552
+	Tesseract on page: 553
+	Tesseract on page: 554
+	Tesseract on page: 555
+	Tesseract on page: 556
+	Tesseract on page: 557
+	Tesseract on page: 558
+	Tesseract on page: 559
+	Tesseract on page: 560
+	Tesseract on page: 561
+	Tesseract on page: 562
+	Tesseract on page: 563
+	Tesseract on page: 564
+	Tesseract on page: 565
+	Tesseract on page: 566
+	Tesseract on page: 567
+  exec_task: pdftable_finder 
+	==Total:282122 Errors=282122 TableEmptyBodyCellError=282122
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202401121301306320.pdf --> para 202401121301306320.pdf:Page_idx: 8 7 <-> [(0, 2)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202401181139469920.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202401181139469920.pdf missing_cmaps: nirmalaui, mangal, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+	Tesseract on page: 11
+	Tesseract on page: 12
+	Tesseract on page: 13
+	Tesseract on page: 14
+	Tesseract on page: 15
+	Tesseract on page: 16
+	Tesseract on page: 17
+	Tesseract on page: 18
+	Tesseract on page: 19
+	Tesseract on page: 20
+	Tesseract on page: 21
+	Tesseract on page: 22
+	Tesseract on page: 23
+	Tesseract on page: 24
+	Tesseract on page: 25
+	Tesseract on page: 26
+	Tesseract on page: 27
+	Tesseract on page: 28
+	Tesseract on page: 29
+	Tesseract on page: 30
+	Tesseract on page: 31
+	Tesseract on page: 32
+	Tesseract on page: 33
+	Tesseract on page: 34
+	Tesseract on page: 35
+	Tesseract on page: 36
+	Tesseract on page: 37
+	Tesseract on page: 38
+	Tesseract on page: 39
+	Tesseract on page: 40
+  exec_task: pdftable_finder 
+	==Total:23 Errors=23 TableEmptyBodyCellError=23
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202401181139469920.pdf --> para 202401181139469920.pdf:Page_idx: 25 2 <-> [(0, 2), (1, 3), (1, 4)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202402121038111820.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202402121038111820.pdf missing_cmaps: nirmalaui, mangal, f2, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:105 Errors=105 TableEmptyBodyCellError=105
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202402121038111820.pdf --> para 202402121038111820.pdf:Page_idx: 0 8 <-> [(0, 4), (1, 6), (2, 6), (3, 6), (4, 7), (5, 8)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202402121038214420.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202402121038214420.pdf missing_cmaps: nirmalaui, mangal, f2, f6, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:66 Errors=66 TableEmptyBodyCellError=66
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202402121038214420.pdf --> para 202402121038214420.pdf:Page_idx: 0 5 <-> [(0, 18), (1, 19)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202402121038380120.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202402121038380120.pdf missing_cmaps: nirmalaui, mangal, f2, f6, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:19 Errors=19 TableEmptyBodyCellError=19
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202402121038380120.pdf --> para 202402121038380120.pdf:Page_idx: 0 5 <-> [(0, 15)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202402121038437120.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202402121038437120.pdf missing_cmaps: nirmalaui, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:38 Errors=38 TableEmptyBodyCellError=38
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202402121038437120.pdf --> para 202402121038437120.pdf:Page_idx: 0 2 <-> [(0, 17)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403111336093520.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202403111336093520.pdf missing_cmaps: nirmalaui, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:10 Errors=10 TableEmptyBodyCellError=10
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403111336093520.pdf --> para 202403111336093520.pdf:Page_idx: 1 1 <-> []
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403131420197320.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202403131420197320.pdf missing_cmaps: nirmalaui, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+  exec_task: pdftable_finder 
+	==Total:635 Errors=635 TableEmptyBodyCellError=635
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403131420197320.pdf --> para 202403131420197320.pdf:Page_idx: 5 7 <-> [(0, 4)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403141755521020.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202403141755521020.pdf missing_cmaps: nirmalaui, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:18 Errors=18 TableEmptyBodyCellError=18
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141755521020.pdf: >शासन निर्णय क्रमांक< >ग्रासयो-२०२०/प्र.क्र.१८४/बांधकाम-२<
+	elapsed_time:202403141755521020.pdf: 0.000099
+  exec_task: doc_translator_hf 
+    Paras: #80 Sentences: #36
+	[0]  #words: 51 #sentences: 20
+	After generate: 5 MB
+	[0]  #words: 260 #sentences: 60
+	After generate: 5 MB
+	[1]  #words: 262 #sentences: 29
+	After generate: 5 MB
+	[2]  #words: 241 #sentences: 18
+	After generate: 5 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403141756016920.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
-#docs: 131 #processed: 12
+	202403141756016920.pdf missing_cmaps: nirmalaui, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:20 Errors=20 TableEmptyBodyCellError=20
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141756016920.pdf: >शासन निर्णय क्रमांक< >ग्रासयो-२०२०/प्र.क्र.१८२/बांधकाम-२<
+	elapsed_time:202403141756016920.pdf: 0.000104
+  exec_task: doc_translator_hf 
+    Paras: #82 Sentences: #42
+	[0]  #words: 52 #sentences: 26
+	After generate: 5 MB
+	[0]  #words: 261 #sentences: 60
+	After generate: 5 MB
+	[1]  #words: 258 #sentences: 30
+	After generate: 5 MB
+	[2]  #words: 218 #sentences: 18
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151736381020.pdf missing_cmaps: nirmalaui, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:18 Errors=18 TableEmptyBodyCellError=18
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151736381020.pdf: >शासन निर्णय क्रमांक< >अनुग्रा २०२३/प्र.क्र.३२/आस्था १५<
+	elapsed_time:202403151736381020.pdf: 0.000095
+  exec_task: doc_translator_hf 
+    Paras: #53 Sentences: #25
+	[0]  #words: 42 #sentences: 19
+	After generate: 5 MB
+	[0]  #words: 262 #sentences: 56
+	After generate: 12 MB
+	[1]  #words: 264 #sentences: 23
+	After generate: 12 MB
+	[2]  #words: 283 #sentences: 16
+	After generate: 12 MB
+	[3]  #words: 185 #sentences: 5
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151736594020.pdf missing_cmaps: nirmalaui, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:121 Errors=121 TableEmptyBodyCellError=121
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403151736594020.pdf --> para 202403151736594020.pdf:Page_idx: 1 9 <-> [(0, 1), (1, 2), (6, 3), (7, 3), (8, 3)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151737041120.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:29 Errors=29 TableEmptyBodyCellError=29
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403151737041120.pdf --> para 202403151737041120.pdf:Page_idx: 1 5 <-> [(0, 3)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152002270320.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:3 Errors=3 TableEmptyBodyCellError=3
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152002270320.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.२६/यो-११<
+	elapsed_time:202403152002270320.pdf: 0.000094
+  exec_task: doc_translator_hf 
+    Paras: #79 Sentences: #85
+	[0]  #words: 207 #sentences: 40
+	After generate: 12 MB
+	[0]  #words: 262 #sentences: 66
+	After generate: 12 MB
+	[1]  #words: 268 #sentences: 29
+	After generate: 12 MB
+	[2]  #words: 275 #sentences: 22
+	After generate: 12 MB
+	[3]  #words: 107 #sentences: 5
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152002321520.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152002321520.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152002321520.pdf: 0.000085
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #30
+	[0]  #words: 44 #sentences: 12
+	After generate: 12 MB
+	[0]  #words: 260 #sentences: 59
+	After generate: 12 MB
+	[1]  #words: 263 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 97 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152002381420.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152002381420.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152002381420.pdf: 0.000085
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #18
+	[0]  #words: 22 #sentences: 8
+	After generate: 12 MB
+	[0]  #words: 261 #sentences: 59
+	After generate: 12 MB
+	[1]  #words: 266 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 96 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152002432620.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152002432620.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152002432620.pdf: 0.000088
+  exec_task: doc_translator_hf 
+    Paras: #69 Sentences: #36
+	[0]  #words: 70 #sentences: 14
+	After generate: 12 MB
+	[0]  #words: 261 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 264 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 102 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152002488420.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152002488420.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152002488420.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #73 Sentences: #36
+	[0]  #words: 69 #sentences: 14
+	After generate: 12 MB
+	[0]  #words: 260 #sentences: 60
+	After generate: 12 MB
+	[1]  #words: 264 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 118 #sentences: 11
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152002534120.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152002534120.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152002534120.pdf: 0.000086
+  exec_task: doc_translator_hf 
+    Paras: #72 Sentences: #33
+	[0]  #words: 39 #sentences: 13
+	After generate: 12 MB
+	[0]  #words: 266 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 268 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 87 #sentences: 8
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152002581420.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152002581420.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152002581420.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #21
+	[0]  #words: 28 #sentences: 9
+	After generate: 12 MB
+	[0]  #words: 263 #sentences: 62
+	After generate: 12 MB
+	[1]  #words: 266 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 97 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003051520.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003051520.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003051520.pdf: 0.000085
+  exec_task: doc_translator_hf 
+    Paras: #73 Sentences: #39
+	[0]  #words: 49 #sentences: 15
+	After generate: 12 MB
+	[0]  #words: 263 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 265 #sentences: 27
+	After generate: 12 MB
+	[2]  #words: 109 #sentences: 10
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003101120.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003101120.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003101120.pdf: 0.000087
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #18
+	[0]  #words: 25 #sentences: 8
+	After generate: 12 MB
+	[0]  #words: 262 #sentences: 59
+	After generate: 12 MB
+	[1]  #words: 266 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 96 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003153820.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003153820.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003153820.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #69 Sentences: #21
+	[0]  #words: 28 #sentences: 9
+	After generate: 12 MB
+	[0]  #words: 260 #sentences: 60
+	After generate: 12 MB
+	[1]  #words: 268 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 91 #sentences: 8
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003201420.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003201420.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003201420.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #69 Sentences: #21
+	[0]  #words: 26 #sentences: 9
+	After generate: 12 MB
+	[0]  #words: 258 #sentences: 59
+	After generate: 12 MB
+	[1]  #words: 268 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 91 #sentences: 8
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003261420.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003261420.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003261420.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #69 Sentences: #21
+	[0]  #words: 27 #sentences: 9
+	After generate: 12 MB
+	[0]  #words: 262 #sentences: 60
+	After generate: 12 MB
+	[1]  #words: 268 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 91 #sentences: 8
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003311520.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003311520.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003311520.pdf: 0.000086
+  exec_task: doc_translator_hf 
+    Paras: #67 Sentences: #24
+	[0]  #words: 34 #sentences: 10
+	After generate: 12 MB
+	[0]  #words: 257 #sentences: 58
+	After generate: 12 MB
+	[1]  #words: 265 #sentences: 25
+	After generate: 12 MB
+	[2]  #words: 100 #sentences: 8
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003361620.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003361620.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003361620.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #18
+	[0]  #words: 24 #sentences: 8
+	After generate: 12 MB
+	[0]  #words: 259 #sentences: 59
+	After generate: 12 MB
+	[1]  #words: 266 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 96 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003418720.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003418720.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003418720.pdf: 0.000085
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #27
+	[0]  #words: 38 #sentences: 11
+	After generate: 12 MB
+	[0]  #words: 263 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 264 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 97 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003471920.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003471920.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003471920.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #27
+	[0]  #words: 36 #sentences: 11
+	After generate: 12 MB
+	[0]  #words: 261 #sentences: 62
+	After generate: 12 MB
+	[1]  #words: 264 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 97 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003519020.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003519020.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003519020.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #27
+	[0]  #words: 38 #sentences: 11
+	After generate: 12 MB
+	[0]  #words: 264 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 264 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 97 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152003568920.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152003568920.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152003568920.pdf: 0.000082
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #30
+	[0]  #words: 39 #sentences: 12
+	After generate: 12 MB
+	[0]  #words: 263 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 265 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 96 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152004111520.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152004111520.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152004111520.pdf: 0.000085
+  exec_task: doc_translator_hf 
+    Paras: #72 Sentences: #30
+	[0]  #words: 53 #sentences: 12
+	After generate: 12 MB
+	[0]  #words: 262 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 264 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 96 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152004252720.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152004252720.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152004252720.pdf: 0.000082
+  exec_task: doc_translator_hf 
+    Paras: #72 Sentences: #27
+	[0]  #words: 44 #sentences: 11
+	After generate: 12 MB
+	[0]  #words: 264 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 264 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 96 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152004301820.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152004301820.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152004301820.pdf: 0.000085
+  exec_task: doc_translator_hf 
+    Paras: #72 Sentences: #27
+	[0]  #words: 48 #sentences: 11
+	After generate: 12 MB
+	[0]  #words: 264 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 264 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 96 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152004401720.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152004401720.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152004401720.pdf: 0.000082
+  exec_task: doc_translator_hf 
+    Paras: #66 Sentences: #18
+	[0]  #words: 25 #sentences: 8
+	After generate: 12 MB
+	[0]  #words: 258 #sentences: 56
+	After generate: 12 MB
+	[1]  #words: 257 #sentences: 24
+	After generate: 12 MB
+	[2]  #words: 108 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152004448020.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:2 Errors=2 TableEmptyBodyCellError=2
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152004448020.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152004448020.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #66 Sentences: #21
+	[0]  #words: 28 #sentences: 9
+	After generate: 12 MB
+	[0]  #words: 258 #sentences: 56
+	After generate: 12 MB
+	[1]  #words: 266 #sentences: 25
+	After generate: 12 MB
+	[2]  #words: 98 #sentences: 8
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152004501320.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152004501320.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152004501320.pdf: 0.000086
+  exec_task: doc_translator_hf 
+    Paras: #68 Sentences: #27
+	[0]  #words: 42 #sentences: 11
+	After generate: 12 MB
+	[0]  #words: 259 #sentences: 58
+	After generate: 12 MB
+	[1]  #words: 265 #sentences: 25
+	After generate: 12 MB
+	[2]  #words: 100 #sentences: 8
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152004549120.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:2 Errors=2 TableEmptyBodyCellError=2
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152004549120.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152004549120.pdf: 0.000086
+  exec_task: doc_translator_hf 
+    Paras: #66 Sentences: #18
+	[0]  #words: 23 #sentences: 8
+	After generate: 12 MB
+	[0]  #words: 257 #sentences: 56
+	After generate: 12 MB
+	[1]  #words: 257 #sentences: 24
+	After generate: 12 MB
+	[2]  #words: 108 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152005010920.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152005010920.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152005010920.pdf: 0.000087
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #27
+	[0]  #words: 36 #sentences: 11
+	After generate: 12 MB
+	[0]  #words: 260 #sentences: 60
+	After generate: 12 MB
+	[1]  #words: 266 #sentences: 26
+	After generate: 12 MB
+	[2]  #words: 96 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152005111520.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:2 Errors=2 TableEmptyBodyCellError=2
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152005111520.pdf: >शासन निर्णय क्रमांक< >तीर्थवि-२०२४/प्र.क्र.३०/यो-११<
+	elapsed_time:202403152005111520.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #67 Sentences: #30
+	[0]  #words: 44 #sentences: 12
+	After generate: 12 MB
+	[0]  #words: 257 #sentences: 57
+	After generate: 12 MB
+	[1]  #words: 265 #sentences: 25
+	After generate: 12 MB
+	[2]  #words: 100 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152005231420.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152005231420.pdf: >शासन निर्णय क्रमांक< >जिपज-२०२३/प्र.क्र.२९२/योजना-११<
+	elapsed_time:202403152005231420.pdf: 0.000100
+  exec_task: doc_translator_hf 
+    Paras: #36 Sentences: #0
+	[0]  #words: 262 #sentences: 47
+	After generate: 12 MB
+	[1]  #words: 288 #sentences: 15
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152117337520.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+	Tesseract on page: 11
+	Tesseract on page: 12
+	Tesseract on page: 13
+	Tesseract on page: 14
+	Tesseract on page: 15
+	Tesseract on page: 16
+	Tesseract on page: 17
+	Tesseract on page: 18
+	Tesseract on page: 19
+	Tesseract on page: 20
+	Tesseract on page: 21
+	Tesseract on page: 22
+	Tesseract on page: 23
+	Tesseract on page: 24
+	Tesseract on page: 25
+	Tesseract on page: 26
+	Tesseract on page: 27
+	Tesseract on page: 28
+	Tesseract on page: 29
+	Tesseract on page: 30
+	Tesseract on page: 31
+	Tesseract on page: 32
+	Tesseract on page: 33
+	Tesseract on page: 34
+	Tesseract on page: 35
+	Tesseract on page: 36
+	Tesseract on page: 37
+	Tesseract on page: 38
+	Tesseract on page: 39
+	Tesseract on page: 40
+	Tesseract on page: 41
+	Tesseract on page: 42
+	Tesseract on page: 43
+	Tesseract on page: 44
+	Tesseract on page: 45
+	Tesseract on page: 46
+	Tesseract on page: 47
+	Tesseract on page: 48
+	Tesseract on page: 49
+	Tesseract on page: 50
+	Tesseract on page: 51
+	Tesseract on page: 52
+	Tesseract on page: 53
+	Tesseract on page: 54
+	Tesseract on page: 55
+	Tesseract on page: 56
+	Tesseract on page: 57
+	Tesseract on page: 58
+	Tesseract on page: 59
+	Tesseract on page: 60
+	Tesseract on page: 61
+	Tesseract on page: 62
+	Tesseract on page: 63
+	Tesseract on page: 64
+  exec_task: pdftable_finder 
+	==Total:8 Errors=8 TableEmptyBodyCellError=8
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152117337520.pdf: >Government Resolution No.< >PMGS Y-2024/C.R.116/Bandhkam-2<
+	elapsed_time:202403152117337520.pdf: 0.000117
+  exec_task: doc_translator_hf 
+    Paras: #1 Sentences: #0
+	[0]  #words: 10 #sentences: 1
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161148085120.pdf missing_cmaps: nirmalaui, f7, mangal, f2, f6, f5, f1, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161148085120.pdf: >शासननिर्णय क्रमांक< >कोग्रापविका-२०२४/प्र.क्र. २७/यो-११<
+	elapsed_time:202403161148085120.pdf: 0.000086
+  exec_task: doc_translator_hf 
+    Paras: #20 Sentences: #0
+	[0]  #words: 303 #sentences: 32
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161148138420.pdf missing_cmaps: nirmalaui, f7, couriernewbold, mangal, f2, f6, f5, f1, nirmalauibold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Replaced 0:9 >(couriernewbold-cid:17)<  >|<
+	Replaced 0:22 >(nirmalaui-cid:271)(nirmalaui-cid:301)(nirmalaui-cid:323)(nirmalaui-cid:266)(nirmalaui-cid:248)(nirmalaui-cid:301)(nirmalaui-cid:273)<  >बाधकाम<
+	Replaced 0:23 >(nirmalaui-cid:272)(nirmalaui-cid:281)(nirmalaui-cid:267)(nirmalaui-cid:273)(nirmalaui-cid:256)(nirmalaui-cid:330)(nirmalaui-cid:271)(nirmalaui-cid:301)(nirmalaui-cid:267)<  >भवन, २५ मर्शबान<
+	Replaced 0:24 >(nirmalaui-cid:269)(nirmalaui-cid:264)<  >पथ<
+	Replaced 0:27 >(nirmalaui-cid:270)(nirmalaui-cid:316)(nirmalaui-cid:258)(nirmalaui-cid:330)(nirmalaui-cid:273)(nirmalaui-cid:323)(nirmalaui-cid:306)(nirmalaui-cid:271)(nirmalaui-cid:233)<  >फोट, मब€<
+	Replaced 1:41 >(nirmalauibold-cid:248)(nirmalauibold-cid:301)(nirmalauibold-cid:129)(nirmalauibold-cid:250)(nirmalauibold-cid:316)(nirmalauibold-cid:129)(nirmalauibold-cid:281)(nirmalauibold-cid:279)(nirmalauibold-cid:281)(nirmalauibold-cid:305)<  >का.र्गा.वळवा<
+	Replaced 1:42 >(nirmalauibold-cid:285)(nirmalauibold-cid:286)<  >सह<
+	Replaced 1:43 >(nirmalauibold-cid:285)(nirmalauibold-cid:302)(nirmalauibold-cid:253)(nirmalauibold-cid:281),<  >साचिव,<
+	Replaced 1:44 >(nirmalauibold-cid:273)(nirmalauibold-cid:286)(nirmalauibold-cid:301)(nirmalauibold-cid:275)(nirmalauibold-cid:301)(nirmalauibold-cid:700)(nirmalauibold-cid:332)<  >महारा<
+	Replaced 1:45 >(nirmalauibold-cid:282)(nirmalauibold-cid:301)(nirmalauibold-cid:285)(nirmalauibold-cid:267)<  >Qa<
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:63 Errors=63 TableEmptyBodyCellError=63
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161148138420.pdf: Unable to find order
+	elapsed_time:202403161148138420.pdf: 0.000045
+  exec_task: doc_translator_hf 
+    Paras: #24 Sentences: #0
+	[0]  #words: 292 #sentences: 36
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161407298920.pdf missing_cmaps: nirmalaui, f7, couriernewbold, mangal, f2, f6, f5, f1, nirmalauibold, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161407298920.pdf: >शासन निर्णय क्रमांक< >मुग्रायो-२२३/प्र.क्र.८८२/बांधकाम-०४<
+	elapsed_time:202403161407298920.pdf: 0.000079
+  exec_task: doc_translator_hf 
+    Paras: #141 Sentences: #0
+	[0]  #words: 257 #sentences: 67
+	After generate: 12 MB
+	[1]  #words: 263 #sentences: 35
+	After generate: 12 MB
+	[2]  #words: 266 #sentences: 24
+	After generate: 12 MB
+	[3]  #words: 260 #sentences: 22
+	After generate: 12 MB
+	[4]  #words: 253 #sentences: 20
+	After generate: 12 MB
+  exec_task: text_writer 
+#docs: 166 #processed: 47
