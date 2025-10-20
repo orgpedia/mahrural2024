@@ -7,21 +7,36 @@ import sys
 import time
 from pathlib import Path
 
+import urllib.parse
+import re
+import unicodedata
 import requests
 
 DeptName = "Rural Development Department"
+
+def sanitize_filename(filename):
+    filename = urllib.parse.unquote(filename)
+    filename = unicodedata.normalize('NFKD', filename)
+    filename = re.sub(r'[^\w\s.-]', '', filename.encode('ascii', 'ignore').decode('ascii'))
+    filename = re.sub(r'\s+', '_', filename.strip())
+    # Remove consecutive dots and trailing dots
+    filename = re.sub(r'\.{2,}', '.', filename)
+    filename = filename.rstrip('.')
+    return filename
 
 
 def request_pdf(url, pdf_file):
     downloaded, dt_str = False, None
     try:
         print(f"Downloading {url}")
+        dt_str = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S %Z%z")
+        if pdf_file.exists():
+            return True, dt_str
         r = requests.get(url)
         if r.status_code == 200:
             with pdf_file.open("wb") as f:
                 f.write(r.content)
             downloaded = True
-            dt_str = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S %Z%z")
         else:
             print(f"An error occurred while downloading {url} Status: {r.status_code}")
     except Exception as e:
@@ -42,7 +57,7 @@ def main():
     dept_infos = [i for i in all_infos if i["Department Name"] == DeptName]
 
     for info in dept_infos:
-        info['Unique Code'] = info['Unique Code'].replace('\u200d', '')
+        info['Unique Code'] = sanitize_filename(info['Unique Code']) #.replace('\u200d', '')
 
     doc_infos = json.loads(doc_info_path.read_text()) if doc_info_path.exists() else []
     doc_set = set(i["Unique Code"] for i in doc_infos)
@@ -83,7 +98,8 @@ def main():
         tgt_path = link_dir / doc_path.name
         src_path = os.path.relpath(str(doc_path), start=str(link_dir))
 
-        tgt_path.symlink_to(src_path)
+        if not tgt_path.exists():
+            tgt_path.symlink_to(src_path)
         doc_infos.append(info)
 
     doc_info_path.write_text(json.dumps(doc_infos))

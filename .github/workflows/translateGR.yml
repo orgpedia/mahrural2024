@@ -4,8 +4,8 @@ on:
   schedule:
     - cron: '30 21 * * *'  # Runs at 21:30 UTC, which is 3:00 AM IST
 
-  # push:
-  #   branches: [ main ]
+  push:
+    branches: [ main ]
 
 jobs:
   process_GRs:

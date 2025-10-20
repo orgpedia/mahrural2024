@@ -1,6 +1,6 @@
 description: This folder(task) runs the cid extractor, extracts tables and paragraphs, translates them and writes as a text file.
 
-ignore_docs: [ ]
+ignore_docs: [ '202401041750235420.pdf', '202508251314452220.pdf', '202508251314470320.pdf', '202508181137471820.pdf', '202410101415108820.pdf', '202410101415153420.pdf', '202410151100094720.pdf', '202410151100161820.pdf', '202405291503557220.pdf']
 
 output_dir: 'output'
 config_dir: 'conf'
