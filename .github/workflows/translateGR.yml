@@ -38,16 +38,9 @@ jobs:
       - name: Import new infos, download and link
         run: make import
 
-      # - name: Login to Hugging Face
-      #   env:
-      #     HF_TOKEN: ${{ secrets.HF_TOKEN }}
-      #   run: |
-      #     huggingface-cli login --token $HF_TOKEN
-
-
       - name: Extract, translate
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_READ_TOKEN }}
         run: make flow
 
       - name: Export
